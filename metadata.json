@@ -1,5 +1,5 @@
 {
-  "name": "Developer's Toolbox",
-  "description": "A versatile toolbox for developers, featuring a text generator powered by Gemini, a JSON formatter, and a Base64 encoder/decoder. Designed to run seamlessly on GitHub Pages.",
+  "name": "Developer's Toolbox (Single Page App)",
+  "description": "A standard, single-file toolbox for developers, featuring a text generator powered by Gemini, a JSON formatter, and a Base64 encoder/decoder. Built with vanilla HTML, CSS, and JavaScript to run seamlessly on any platform like GitHub Pages.",
   "requestFramePermissions": []
 }
