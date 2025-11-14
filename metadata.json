@@ -1,0 +1,5 @@
+{
+  "name": "Developer's Toolbox",
+  "description": "A versatile toolbox for developers, featuring a text generator powered by Gemini, a JSON formatter, and a Base64 encoder/decoder. Designed to run seamlessly on GitHub Pages.",
+  "requestFramePermissions": []
+}
