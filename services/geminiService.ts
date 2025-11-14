@@ -1,15 +1,14 @@
-
 import { GoogleGenAI } from "@google/genai";
 
-const API_KEY = process.env.API_KEY;
-
-if (!API_KEY) {
-  throw new Error("API_KEY environment variable not set.");
-}
-
-const ai = new GoogleGenAI({ apiKey: API_KEY });
-
 export const generateText = async (prompt: string): Promise<string> => {
+  const API_KEY = process.env.API_KEY;
+
+  if (!API_KEY) {
+    return "خطا: کلید API یافت نشد. لطفاً مطمئن شوید که متغیر محیطی API_KEY تنظیم شده است.";
+  }
+
+  const ai = new GoogleGenAI({ apiKey: API_KEY });
+
   try {
     const response = await ai.models.generateContent({
       model: 'gemini-2.5-flash',
